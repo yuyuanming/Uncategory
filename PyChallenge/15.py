@@ -1,7 +1,7 @@
-import datetime
+import calendar
 
 for year in range(1996, 1582, -20):
-	if datetime.date(year, 1, 1).weekday() == 3:
+	if calendar.weekday(year, 1, 1) == 3:
 		print year,
 
 # second youngest suggests year 1756
