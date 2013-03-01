@@ -1,0 +1,23 @@
+url:http://www.brand.site.co.il/riddles/201301q.html
+
+part 1:
+1, 2, 3 are non-composite number, so the first mover will win, but 4 is not.
+
+For numbers like 4m (m > 0), the second mover will win, since any number 4k is composite number, and once the first player move, the second could always make a move with 1, 2 or 3 to remain 4m' again.
+
+Then for number like 4m+1, 4m+2, 4m+3, the first mover is surely will win.
+
+part 2:
+2^m (m >= 0) the first mover will get lose, otherwise will win.
+
+By induction. 1 = 2^0, first lose.
+
+For 2^m < n < 2^(m+1).
+Rewrite n = 2^m + k, we will have 0 < k < 2^m. 
+Then 2k < 2^m + k = n. 
+For those n, we could choose k (less than half of n) to make the remain number becomes 2^m, which the next first mover will lose by induction.
+
+For 2^(m+1), the first mover could only to choose 1, 2, ..., (2^m -1), but no 2^m. Thus by above situations induction, the second player (next first mover) will win. So the first mover will lose.
+
+part 3:
+
