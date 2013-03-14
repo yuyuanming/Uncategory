@@ -131,9 +131,7 @@ int main() {
 	printf("%.6lf\n", calc_bs(6));
 	return 0;
 	*/
-
-
-	/*	
+	
 	B[0][0][0] = 1;
 	B[0][0][1] = 1;
 	B[0][1][0] = 1;
@@ -149,7 +147,7 @@ int main() {
 	print();
 
 	return 0;
-	*/
+	
 
 	printf("Input p = ");
 	scanf("%lf", &p);
